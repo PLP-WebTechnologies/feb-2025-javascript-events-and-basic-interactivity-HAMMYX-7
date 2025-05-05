@@ -1,1 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JS Event Assignment</title>
+    <link rel="stylesheet" href="style.css">
+    <script defer src="script.js"></script>
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to the Interactive Zone</h1>
+    </header>
+
+    <main>
+
+        <!-- Event Handling -->
+        <section>
+            <h2>Event Playground</h2>
+            <button id="clickBtn">Click Me</button>
+            <p id="hoverText">Hover over this text</p>
+            <input type="text" id="keyInput" placeholder="Type something..." />
+            <p id="secretAction">Double-click me for a surprise!</p>
+        </section>
+
+        <!-- Interactive Elements -->
+        <section>
+            <h2>Image Gallery</h2>
+            <div class="gallery">
+                <img src="https://picsum.photos/200/300?random=1" id="gallery-img" alt="Gallery">
+                <button id="nextImg">Next Image</button>
+            </div>
+
+            <h2>Tabs</h2>
+            <div class="tabs">
+                <button class="tab" onclick="showTab('tab1')">Tab 1</button>
+                <button class="tab" onclick="showTab('tab2')">Tab 2</button>
+                <div id="tab1" class="tab-content">Content for Tab 1</div>
+                <div id="tab2" class="tab-content hidden">Content for Tab 2</div>
+            </div>
+        </section>
+
+        <!-- Form Validation -->
+        <section>
+            <h2>Sign Up</h2>
+            <form id="signupForm">
+                <label>Name: <input type="text" name="name" required></label><br>
+                <label>Email: <input type="email" name="email" required></label><br>
+                <label>Password: <input type="password" name="password" minlength="8" required></label><br>
+                <button type="submit">Register</button>
+                <p id="formFeedback"></p>
+            </form>
+        </section>
+
+    </main>
+
+</body>
+</html>
 

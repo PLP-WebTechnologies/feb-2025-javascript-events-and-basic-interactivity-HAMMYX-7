@@ -35,7 +35,7 @@ Here’s what your interactive bundle of joy should include:
 - Password rules (e.g., min 8 characters)  
 - Bonus: Real-time feedback while typing
 
----
+--
 
 ## 🧙‍♂️ Pro Tips
 
@@ -43,7 +43,7 @@ Here’s what your interactive bundle of joy should include:
 - Think about **user experience** – what makes your site more *fun* to use?
 - Don’t be afraid to **Google and experiment** – that’s how real developers roll!
 
----
+--
 
 ## 🎉 Now Go Make It Fun!
 
